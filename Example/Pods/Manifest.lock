@@ -1,0 +1,27 @@
+PODS:
+  - CacheKit (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - CacheKit (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  CacheKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CacheKit: d8ed64ab993fc4f94e260a8df58d17754260e213
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: dcebf878fdde8d56f54be35530ed68f4a20523e7
+
+COCOAPODS: 1.11.3
