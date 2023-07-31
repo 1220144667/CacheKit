@@ -2,27 +2,16 @@
 CacheKit是一个适用于iOS、令人愉快的缓存框架，一行代码实现缓存。支持存储泛型对象，并且，它是线程安全的！
 
 ## Example
-
-/// 写入缓存
-/// - Parameters:
-///   - object: 对象（支持泛型）
-///   - key: 缓存的key
+写入缓存：传入需要缓存的对象（支持泛型），缓存的key
 CacheManager.shared.set(object: <#T##Decodable & Encodable#>, forKey: <#T##String#>)
 
-/// 获取缓存内容
-/// - Parameters:
-///   - key: key
-///   - type: 类型
-/// - Returns: 返回缓存的实例
+获取缓存内容：传入对象、对应类型、返回缓存的实例
 CacheManager.shared.object(forKey: <#T##String#>, type: <#T##(Decodable & Encodable).Protocol#>)
 
-/// 删除缓存
-/// - Parameter key: key
+删除缓存：
 CacheManager.shared.removeObject(forKey: <#T##String#>)
 
-/// 判断是否有缓存
-/// - Parameter key: key
-/// - Returns: 结果
+判断是否已缓存
 CacheManager.shared.containsObject(forKey: <#T##String#>)
 
 ## Requirements
