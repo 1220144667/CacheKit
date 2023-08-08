@@ -9,15 +9,15 @@ CacheKit是一个适用于iOS、令人愉快的缓存框架，一行代码实现
 
 #### 获取缓存内容：传入对象、对应类型、返回缓存的实例
 
-> CacheManager.shared.object(forKey: <#T##String#>, type: <#T##(Decodable & Encodable).Protocol#>)
+`CacheManager.shared.object(forKey: <#T##String#>, type: <#T##(Decodable & Encodable).Protocol#>)`
 
 #### 删除缓存：
 
-> CacheManager.shared.removeObject(forKey: <#T##String#>)
+`CacheManager.shared.removeObject(forKey: <#T##String#>)`
 
 #### 判断是否已缓存:
 
-> CacheManager.shared.containsObject(forKey: <#T##String#>)
+`CacheManager.shared.containsObject(forKey: <#T##String#>)`
 
 ## Requirements
 
