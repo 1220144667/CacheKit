@@ -4,25 +4,25 @@ CacheKit是一个适用于iOS、令人愉快的缓存框架，一行代码实现
 ## Example
 
 #### 写入缓存：传入需要缓存的对象（支持泛型），缓存的key
-```ruby
+```
 CacheManager.shared.set(object: <#T##Decodable & Encodable#>, forKey: <#T##String#>)
 ```
 
 #### 获取缓存内容：传入对象、对应类型、返回缓存的实例
 
-```ruby
+```
 CacheManager.shared.object(forKey: <#T##String#>, type: <#T##(Decodable & Encodable).Protocol#>)
 ```
 
 #### 删除缓存：
 
-```ruby
+```
 CacheManager.shared.removeObject(forKey: <#T##String#>)
 ```
 
 #### 判断是否已缓存:
 
-```ruby
+```
 CacheManager.shared.containsObject(forKey: <#T##String#>)
 ```
 
